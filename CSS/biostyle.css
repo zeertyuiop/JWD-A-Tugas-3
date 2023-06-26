@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(80, 78, 78);
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+section#activities  {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+section#profile {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section#profile h1, section#activities h1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    background-color: rgb(181, 180, 180);
+    color: rgb(0, 0, 0);
+}
+section#profile h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#profile-content {
+    width: 800px;
+    margin: auto;
+    margin-left: 55px;
+    margin-top: 0;
+
+}
+#profile-content img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#profile-content #description-text {
+    width: 465px;
+    float: left;
+}
+#profile-content #description-text p{
+    text-align: justify;
+    margin-top: 12px;
+}
+.item-activity img, .item-activity p {
+    width: 750px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    margin-left: 15px;
+
+}
+.item-activity img {
+    margin-bottom: 20px;
+}
+.item-activity {
+    width: 700px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.fix-container {
+    clear: both;
+}
